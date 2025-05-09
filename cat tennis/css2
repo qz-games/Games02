@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/amaticsc/v26/TUZyzwprpvBS1izr_vO0DQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/amaticsc/v26/TUZ3zwprpvBS1izr_vOMscG6eQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Handjet';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHTmaUkU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Handjet';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/handjet/v19/oY1n8eXHq7n1OnbQrOY_2FrEwYEMLlcdP1mCtZaLaTutCwcIhGZ0lGU0akFcO3XFHeedUkU.ttf) format('truetype');
+}

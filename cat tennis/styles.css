@@ -1,0 +1,415 @@
+html {
+  margin: 0;
+  padding: 0;
+  touch-action: manipulation;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  max-width: 600px;
+  overflow-y: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#ball {
+  position: absolute;
+  /* top: 60%; */
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url("./meme_ball.png");
+  background-repeat: no-repeat;
+  background-position: 0, center;
+  background-size: contain;
+  z-index: 997;
+  animation: spin 2s linear infinite;
+  align-self: flex-start;
+}
+
+#background {
+  background-image: none;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0, center;
+  background-size: cover;
+  position: absolute;
+  z-index: -3;
+}
+
+#cat {
+  width: 120px;
+  height: 100px;
+}
+
+#catRacket {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  width: 120px;
+  height: 130px;
+  transform: rotate(20deg);
+}
+
+#startScreen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+}
+
+#selectImageContainer {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#selectImage {
+  width: 75px;
+  height: 75px;
+}
+
+#presetBall {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("./meme_ball.png");
+  background-repeat: no-repeat;
+  background-position: 0, center;
+  background-size: contain;
+}
+
+#racket {
+  position: absolute;
+  width: 130px;
+  height: 250px;
+  z-index: 998;
+}
+
+#previewContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 230px;
+}
+
+.selectImageContainer {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.selectImageBox {
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+  /* visibility: hidden; */
+}
+
+.catImage {
+  background-image: url("./meme_cat.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+.racketImage {
+  background-image: url("./meme_racket.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+.playerRacketImage {
+  background-image: url("./meme_racket.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+.ballImage {
+  background-image: url("./meme_ball.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+.backgroundImage {
+  background-image: none;
+  background-image: url("./defaultBackground.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+.uploadIcon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  bottom: 7px;
+  right: 7px;
+}
+
+#buttonContainer {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#url {
+  opacity: 0.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 999;
+}
+
+#startButton {}
+
+#playButton {
+  position: absolute;
+  z-index: 999;
+  bottom: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playButton {
+  font-family: "Handjet", cursive;
+  padding: 10px 60px 10px 60px;
+  font-size: 30px;
+  border-radius: 999px;
+  color: white;
+  border: none;
+  background-color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#shareButton1 {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 999px;
+  background-image: url("./share.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 3px;
+  background-size: 75%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+#shareButton2 {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 999px;
+  background-image: url("./share.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 3px;
+  background-size: 75%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  z-index: 999;
+}
+
+.twitterButton {
+  width: 35px;
+  height: 35px;
+  background-image: url("./twitter2.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: 100%;
+  background-color: white;
+  border-radius: 999px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-left: 10px;
+}
+
+#moreButton {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 999px;
+  background-image: url("./more.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 75%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  z-index: 999;
+}
+
+#backButton {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 999px;
+  background-image: url("./back.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+#extraContainer {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+#randomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+#randomButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-image: url("./shuffle.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 75%;
+  background-color: white;
+  z-index: 999;
+  border: none;
+}
+
+#earthCount {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: "Handjet", cursive;
+}
+
+#count {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  font-family: "Handjet", cursive;
+}
+
+#startCount {
+  display: none;
+  position: absolute;
+  width: 120px;
+  height: 140px;
+  z-index: 999;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("./three.png");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: contain;
+}
+
+#moveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+#move {
+  width: 220px;
+  height: 150px;
+}
+
+#moveText {
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-family: "Handjet", cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0px 10px 0px 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#gameOverContainer {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+#gameOver {
+  width: 150px;
+  height: 90px;
+}
+
+#gameOverScore {
+  font-size: 28px;
+  font-family: "Handjet", cursive;
+}
+
+#fidgetTown {
+  width: 350px;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
