@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://speedstarsgame.com/xmlrpc.php">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://speedstarsgame.com/wp-content/themes/fs-horo/resources/bundle/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://speedstarsgame.com/wp-content/themes/fs-horo/resources/bundle/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://speedstarsgame.com/wp-content/themes/fs-horo/resources/bundle/favicons/favicon-16x16.png">
+	<link rel="manifest" href="https://speedstarsgame.com/wp-content/themes/fs-horo/resources/bundle/favicons/site.webmanifest">
+
+	<meta name="google-site-verification" content="vxW1uWm1e1sn5f2KbdT3H6RoZsB-gNd5EokNnDB1hkw" />
+	<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - Speed Stars</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Speed Stars" />
+	<meta property="og:site_name" content="Speed Stars" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://speedstarsgame.com/#website","url":"https://speedstarsgame.com/","name":"Horo","description":"Speed Stars","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://speedstarsgame.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"
